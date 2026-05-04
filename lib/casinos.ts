@@ -13,7 +13,7 @@ export interface Casino {
 }
 
 export const casinos: Casino[] = [
-    {
+  {
     id: 1,
     rank: 1,
     name: "Casino Portugal",
@@ -22,6 +22,7 @@ export const casinos: Casino[] = [
     bonus: "20 Jogadas Grátis",
     features: ["Casino Oficial", "Jogos Exclusivos", "Pagamentos Rápidos"],
     url: "https://www.casinoportugal.pt/",
+    badge: "MELHOR ESCOLHA",
     reviews: 3672,
   },
   {
@@ -45,7 +46,7 @@ export const casinos: Casino[] = [
     rating: 9.6,
     bonus: "5€ Registo + Até 500€ Bónus",
     features: ["Melhor Avaliado", "Oferta Exclusiva", "App Móvel"],
-    badge: "MELHOR ESCOLHA",
+
     url: "https://www.luckia.pt/",
     reviews: 2681,
   },
