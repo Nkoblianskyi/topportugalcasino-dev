@@ -34,6 +34,12 @@ export function Footer() {
           <p className="text-white/40 text-sm max-w-md mx-auto font-sans font-light leading-relaxed">
             O seu guia premium para casinos online licenciados em Portugal
           </p>
+          <a
+            href="mailto:contact@topportugalcasino.com"
+            className="inline-block mt-5 text-amber-300/80 hover:text-amber-300 text-sm font-sans tracking-wide transition-colors"
+          >
+            contact@topportugalcasino.com
+          </a>
         </div>
 
         {/* Links grid */}
